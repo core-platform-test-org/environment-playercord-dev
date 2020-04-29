@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:playercord/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:playercord/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:playercord/prow:hmacToken
+segmentWriteKey: vault:playercord:segmentWriteKey
